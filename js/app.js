@@ -1,0 +1,3 @@
+$(function() {
+    $('.reviews-slider').slick();
+})

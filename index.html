@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Mogo</title>
+</head>
+
+<body>
+
+    <!-- sprite -->
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 512 512">
+            <g>
+                <g>
+                    <path d="M256,375.333c-5.523,0-10,4.477-10,10c0,0.013,0,0.027,0,0.04s0,0.027,0,0.04v0.08c0,5.523,4.477,10,10,10s10-4.477,10-10
+                        c0-0.014,0-0.026,0-0.04c0-0.014,0-0.026,0-0.04c0-0.014,0-0.027,0-0.04s0-0.027,0-0.04C266,379.81,261.523,375.333,256,375.333z"
+                        />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path d="M414,0H98C43.962,0,0,43.962,0,98v316c0,54.038,43.962,98,98,98h158c5.523,0,10-4.477,10-10v-77.5c0-5.523-4.477-10-10-10
+                        s-10,4.477-10,10V492H98c-43.009,0-78-34.991-78-78V98c0-43.009,34.991-78,78-78h316c43.009,0,78,34.991,78,78v316
+                        c0,43.009-34.991,78-78,78h-64V315.501h57.981c5.136,0,9.436-3.89,9.95-8.999l7.191-71.455c0.283-2.813-0.637-5.613-2.533-7.709
+                        c-1.896-2.096-4.591-3.292-7.417-3.292H350v-37.521c0-6.791,2.163-9.316,7.981-9.316h56.742c5.523,0,10-4.477,10-10v-69.66
+                        c0-5.523-4.477-10-10-10h-74.517c-42.223,0-64.615,18.546-75.964,34.104c-15.873,21.758-18.243,47.454-18.243,60.834v42.007h-49
+                        c-5.523,0-10,4.477-10,10V305.5c0,5.523,4.477,10,10,10h49V344c0,5.523,4.477,10,10,10s10-4.477,10-10v-38.5
+                        c0-5.523-4.477-10-10-10h-49v-51.007h49c5.523,0,10-4.477,10-10v-52.007c0-22.532,7.231-74.938,74.207-74.938h64.517v49.66
+                        h-46.742c-12.908,0-27.981,7.678-27.981,29.316v47.521c0,5.523,4.477,10,10,10h64.115l-5.178,51.455H340c-5.523,0-10,4.477-10,10
+                        V502c0,5.523,4.477,10,10,10h74c54.038,0,98-43.962,98-98V98C512,43.962,468.038,0,414,0z"/>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path d="M58,102.5c-5.523,0-10,4.477-10,10V196c0,5.523,4.477,10,10,10s10-4.477,10-10v-83.5C68,106.977,63.523,102.5,58,102.5z"
+                        />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path d="M58,229.382c-5.523,0-10,4.477-10,10v0.118c0,5.523,4.477,10,10,10s10-4.477,10-10v-0.118
+                        C68,233.859,63.523,229.382,58,229.382z"/>
+                </g>
+            </g>
+        </symbol>
+        
+    </svg>
+
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">MoGo</div>
+                    <nav class="nav">
+                        <a class="nav__link" href="">About</a>
+                        <a class="nav__link" href="">Service</a>
+                        <a class="nav__link" href="">Work</a>
+                        <a class="nav__link" href="">Blog</a>
+                        <a class="nav__link" href="">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Intro -->
+        <div class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <h2 class="intro__suptitle">Creative Template</h2>
+                    <h1 class="intro__title">Welcome to MoGo</h1>
+                    <a class="intro__btn" href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="container">
+                    <div class="slider__inner">
+                        <div class="slider__elem"><span>01</span> Intro</div>
+                        <div class="slider__elem"><span>02</span> Work</div>
+                        <div class="slider__elem"><span>03</span> About</div>
+                        <div class="slider__elem"><span>04</span> Contacts</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+
+        <section class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">What we do</h3>
+                    <h2 class="section__title">Story about us</h2>
+                    <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="card">
+                    <div class="card__elem">
+                        <div class="card__inner-elem">
+                            <div class="card__photo">
+                                <img class="card__img" src="/img/about-us/about-us-1.jpg" alt="">
+                                <div class="card__text">Super team</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__elem">
+                        <div class="card__inner-elem">
+                            <div class="card__photo">
+                                <img class="card__img" src="/img/about-us/about-us-2.jpg" alt="">
+                                <div class="card__text">Mega team</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__elem">
+                        <div class="card__inner-elem">
+                            <div class="card__photo">
+                                <img class="card__img" src="/img/about-us/about-us-3.png" alt="">
+                                <div class="card__text">Better team</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics -->
+
+        <div class="statistics">
+            <div class="container">
+                <div class="statistics__inner">
+                    <div class="statistics__item">
+                        <div class="statistics__number">42</div>
+                        <div class="statistics__text">Web Design Projects</div>
+                    </div>
+                    <div class="statistics__item">
+                        <div class="statistics__number">123</div>
+                        <div class="statistics__text">happy client</div>
+                    </div>
+                    <div class="statistics__item">
+                        <div class="statistics__number">15</div>
+                        <div class="statistics__text">award winner</div>
+                    </div>
+                    <div class="statistics__item">
+                        <div class="statistics__number">99</div>
+                        <div class="statistics__text">cup of coffee</div>
+                    </div>
+                    <div class="statistics__item">
+                        <div class="statistics__number">24</div>
+                        <div class="statistics__text">members</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">We work with</h3>
+                    <h2 class="section__title">Amazing services</h2>
+                </div>
+            </div>
+            <div class="services">
+                <div class="container">
+                    <div class="services__inner">
+                        <div class="services__item">
+                            <img class="services__icon" src="/img/serveces/service-1.png" alt="Photography">
+                            <div class="services__title">Photography</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                doeiusmodtempor.</div>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__icon" src="/img/serveces/service-2.png" alt="Web Design">
+                            <div class="services__title">Web Design</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                doeiusmodtempor.</div>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__icon" src="/img/serveces/service-3.png" alt="Creativity">
+                            <div class="services__title">Creativity</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                doeiusmodtempor.</div>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__icon" src="/img/serveces/service-4.png" alt="seo">
+                            <div class="services__title">seo</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                doeiusmodtempor.</div>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__icon" src="/img/serveces/service-5.png" alt="Css/Html">
+                            <div class="services__title">Css/Html</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                doeiusmodtempor.</div>
+                        </div>
+                        <div class="services__item">
+                            <img class="services__icon" src="/img/serveces/service-6.png" alt="digital">
+                            <div class="services__title">Digital</div>
+                            <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                doeiusmodtempor.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Device -->
+        <section class="section dvice">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">For all devices</h3>
+                    <h2 class="section__title">Unique design</h2>
+                </div>
+                <div class="device__container">
+                    <img class="dvice__item dvice__item--ipod" src="/img/ipad.png" alt="device">
+                    <img class="dvice__item dvice__item--iphone" src="/img/iphone.png" alt="device">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Wedo -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">What we do</h3>
+                    <h2 class="section__title">Story about us</h2>
+                    <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="wedo">
+                    <div class="wedo__photo">
+                        <img src="./img/wedo-photo.jpg" alt="">
+                    </div>
+                    <div class="accordion wedo__accordion">
+                        <div class="accordion__item ">
+                            <input class="input__checkbox" type="checkbox" name="accordion" id="toogle-1">
+                            <label class="accordion__title" for='toogle-1'>Photography</label>
+                            <img class="accordion__icon" src="/img/accordion/photography.png" alt="Photography">
+                            <p class="accordion__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit
+                            </p>
+                        </div>
+                        <div class="accordion__item ">
+                            <input class="input__checkbox" type="checkbox" name="accordion" id="toogle-2">
+                            <label class="accordion__title" for='toogle-2'>creativity</label>
+                            <img class="accordion__icon" src="/img/accordion/creativity.png" alt="creativity">
+                            <p class="accordion__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit
+                            </p>
+                        </div>
+                        <div class="accordion__item ">
+                            <input class="input__checkbox" type="checkbox" name="accordion" id="toogle-3">
+                            <label class="accordion__title" for='toogle-3'>web-design</label>
+                            <img class="accordion__icon" src="/img/accordion/web-design.png" alt="web-design">
+                            <p class="accordion__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Team -->
+
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">Who we are</h3>
+                    <h2 class="section__title">Meet our team</h2>
+                    <p class="section__text">LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="team">
+                    <div class="team__item">
+                        <div class="team__photo-el">
+                            <div class="team__item-inner">
+                                <div class="team__photo">
+                                    <img src="/img/team/1.jpg" alt="">
+                                </div>
+                                <div class="team__social-block"></div>
+                            </div>
+                        </div>
+                        <div class="team__person-name">Matthew Dix</div>
+                        <div class="team__person-position">Graphic Design</div>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__photo-el">
+                            <div class="team__item-inner">
+                                <div class="team__photo">
+                                    <img src="/img/team/2.jpg" alt="">
+                                </div>
+                                <div class="team__social-block"></div>
+                            </div>
+                        </div>
+                        <div class="team__person-name">Christopher Campbell</div>
+                        <div class="team__person-position">Branding/UX design</div>
+                    </div>
+                    <div class="team__item">
+                        <div class="team__photo-el">
+                            <div class="team__item-inner">
+                                <div class="team__photo">
+                                    <img src="/img/team/3.jpg" alt="">
+                                </div>
+                                <div class="team__social-block"></div>
+                            </div>
+                        </div>
+                        <div class="team__person-name">Michael Fertig</div>
+                        <div class="team__person-position">Developer</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logos -->
+        <div class="logos">
+            <div class="container logos-container">
+                <div class="logos__item"><img src="/img/logos/1.png" alt="icon"></div>
+                <div class="logos__item"><img src="/img/logos/2.png" alt="icon"></div>
+                <div class="logos__item"><img src="/img/logos/3.png" alt="icon"></div>
+                <div class="logos__item"><img src="/img/logos/4.png" alt="icon"></div>
+                <div class="logos__item"><img src="/img/logos/5.png" alt="icon"></div>
+                <div class="logos__item"><img src="/img/logos/6.png" alt="icon"></div>
+            </div>
+
+        </div>
+        <!-- Works -->
+
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">What we do</h3>
+                    <h2 class="section__title">some of our work</h2>
+                    <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+            </div>
+            <div class="works">
+                <div class="works__column">
+                    <div class="works__item">
+                        <div class="works__photo">
+                            <img src="/img/works/1.jpg" alt="works">
+                        </div>
+                        <div class="info">
+                            <h2 class="works__title">creatively designed</h2>
+                            <p class="works__text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <div class="works__item">
+                        <div class="works__photo">
+                            <img src="/img/works/2.jpg" alt="works">
+                        </div>
+                        <div class="info">
+                            <h2 class="works__title">creatively designed</h2>
+                            <p class="works__text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__column">
+                    <div class="works__item">
+                        <div class="works__photo">
+                            <img src="/img/works/3.jpg" alt="works">
+                        </div>
+                        <div class="info">
+                            <h2 class="works__title">creatively designed</h2>
+                            <p class="works__text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <div class="works__item">
+                        <div class="works__photo">
+                            <img src="/img/works/4.jpg" alt="works">
+                        </div>
+                        <div class="info">
+                            <h2 class="works__title">creatively designed</h2>
+                            <p class="works__text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__column">
+                    <div class="works__item">
+                        <div class="works__photo">
+                            <img src="/img/works/5.jpg" alt="works">
+                        </div>
+                        <div class="info">
+                            <h2 class="works__title">creatively designed</h2>
+                            <p class="works__text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__column">
+                    <div class="works__item">
+                        <div class="works__photo">
+                            <img src="/img/works/6.jpg" alt="works">
+                        </div>
+                        <div class="info">
+                            <h2 class="works__title">creatively designed</h2>
+                            <p class="works__text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <div class="works__item">
+                        <div class="works__photo">
+                            <img src="/img/works/7.jpg" alt="works">
+                        </div>
+                        <div class="info">
+                            <h2 class="works__title">creatively designed</h2>
+                            <p class="works__text">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews slider -->
+
+        <div class="reviews">
+            <div class="container">
+                <div class="reviews-slider">
+
+                    <div class="reviews__item" style="display: flex;">
+                        <div class="reviews__photo">
+                            <img src="/img/avatar.png" alt="">
+                        </div>
+                        <div class="reviews__content">
+                            <p class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitatio
+                            </p>
+                            <div class="reviews__author">Jon Doe</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews__item" style="display: flex;">
+                        <div class="reviews__photo">
+                            <img src="/img/avatar.png" alt="">
+                        </div>
+                        <div class="reviews__content">
+                            <p class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitatio
+                            </p>
+                            <div class="reviews__author">Jon Doe</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Clients-->
+
+        <section class="section section--clients">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">Happy Clients</h3>
+                    <h2 class="section__title">What people say</h2>
+                </div>
+                <div class="clients">
+
+                    <div class="clients__item">
+                        <img class="client__avatar" src="/img/clients/1.png" alt="" >
+                        <div class="clients__name">Matthew Dix</div>
+                        <div class="clients__position">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
+                    </div>
+
+                    <div class="clients__item">
+                        <img class="client__avatar" src="/img/clients/2.png" alt="" >
+                        <div class="clients__name">Matthew Dix</div>
+                        <div class="clients__position">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
+                    </div>
+
+                    <div class="clients__item">
+                        <img class="client__avatar" src="/img/clients/3.png" alt="" >
+                        <div class="clients__name">Matthew Dix</div>
+                        <div class="clients__position">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
+                    </div>
+
+                    <div class="clients__item">
+                        <img class="client__avatar" src="/img/clients/4.png" alt="" >
+                        <div class="clients__name">Matthew Dix</div>
+                        <div class="clients__position">Graphic Design</div>
+                        <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="/js/app.js"></script>
+    </div>
+</body>
+
+</html>
